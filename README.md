@@ -14,3 +14,12 @@ The dataset contains 663522 call records and information like latitude, longitud
 - Exploratory data analysis(EDA)
 - Apriori algorithm
 - FP Growth algorithm
+# Proposed System
+ ![System Architecture](/Images/flowchart_square.png)
+# Association Rule Mining
+This is the main task and requires multiple steps:
+- Preprocessing the data to be suitable for the algorithm, in our case, this required dropping multiple attributes and performing one-hot encoding.
+- Finding the appropriate support and confidence. In our case, it was 0.005 as minimum support and 0.1 as confidence.
+  ![Best Support and Confidence](/Images/Best.png)
+- Applying the Apriori algorithm and FP Growth algorithm. In comparison, FP Growth was found to be faster, as expected.
+
