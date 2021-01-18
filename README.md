@@ -22,4 +22,14 @@ This is the main task and requires multiple steps:
 - Finding the appropriate support and confidence. In our case, it was 0.01 as minimum support and 0.1 as confidence.
   ![Best Support and Confidence](/Images/Best.png)
 - Applying the Apriori algorithm and FP Growth algorithm. In comparison, FP Growth was found to be faster, as expected.
+# Some Interesting Results found
+##### {December} => {Traffic: VEHICLE ACCIDENT}
+ This implies that a lot of accidents happen in Pennsylvania during winter which can be partially because of heavy snowfall and formation of ice crust on roads causing vehicles to skid.
+##### {EMS: ASSAULT VICTIM,Night} => {NORRISTOWN}
+ This implies that mainy assaults occur during night in Norristown which is infamous for the scourge of drugs.
+##### {EMS: CVA/STROKE} => {Morning}
+Rule indicates that stroke is likely to occur in the morning.
+Scientific research says that you are more likely to suffer a stroke in the early morning than any other time, and this increased risk is linked to the body’s natural rhythms.
+
+Many more interesting results were found.
 
